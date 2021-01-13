@@ -1,7 +1,7 @@
 server {
   listen $PORT default_server;
 
-  location / {
+  location /home {
     root   /usr/share/nginx/html/index;
     index  index.html index.htm;
   }
